@@ -1,0 +1,51 @@
+body{
+  background-color: blueviolet;
+}
+.main-section{
+    box-shadow: 8px 8px 8px 7px rgba(0, 0, 0, 0.15);
+    background-color: white;
+   margin: 60px;
+   border-radius: 30px;
+}
+
+.row{
+  display: flex;
+}
+.col-6{
+  width: 50%;
+}
+
+.left-section{
+  line-height: 30px;
+}
+ .section2 li{
+  text-decoration: none;
+}
+li{
+  text-decoration: none;
+}
+
+.move{
+  content: url(/images/icon-arrow-down.svg);
+  float: right;
+}
+
+hr{
+  margin-right: 0px;
+}
+@media(max-width:560px){
+.main-section{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+  .row{
+    flex-direction: column;
+    display: flex;
+    margin: auto;
+  }
+  img{
+height: 180px;
+  }
+}
